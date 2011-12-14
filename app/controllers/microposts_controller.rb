@@ -4,10 +4,10 @@ class MicropostsController < ApplicationController
   def index
     @microposts = Micropost.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @microposts }
-    end
+#    respond_to do |format|
+#      format.html # index.html.erb
+#      format.json { render json: @microposts }
+#    end
   end
 
   # GET /microposts/1
